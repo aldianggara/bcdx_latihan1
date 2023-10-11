@@ -29,6 +29,42 @@ class MyApp extends StatelessWidget {
                 Text("data 4 "),
               ],
             ),
+            Container(
+              height: 30,
+              width: 700,
+              color: Colors.lightBlue,
+            ),
+
+            SizedBox(
+              height: 10,
+              width: 10,
+            ),
+            Row(
+              children: [
+                Container(
+                  height: 30,
+                  width: 200,
+                  color: Colors.yellow,
+                ),
+                SizedBox(
+                  width: 10,
+                ),
+                Container(
+                  height: 30,
+                  width: 200,
+                  color: Colors.yellow,
+                ),
+                SizedBox(
+                  width: 10,
+                ),
+                  Container(
+                  height: 30,
+                  width: 200,
+                  color: Colors.yellow,
+                )
+              ],
+            )
+
           ],
         ),
       ),
